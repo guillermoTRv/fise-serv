@@ -1,0 +1,144 @@
+      .momet{
+        width: 100%;
+        height: 440px;
+        margin-top: 50px;
+        padding-top:55px;
+        padding-right:80px;
+        padding-bottom:70px;
+        padding-left: 70px;
+        background-image: url("../image/math-notebook-492351_1280.jpg");        
+      }
+      .contmomet{
+        margin-top: 25px;
+      }
+      .aches{
+        color:white;
+        text-shadow: 0.02em 0.02em #333;
+      }
+      .textmomet{
+          margin-top: 20px;
+          line-height: 34px;
+          font-size: 1.45em;
+          color:white;
+          text-shadow: 0.05em 0.05em #333;
+      }
+      .btn-bas{
+          background-color:rgba(4, 159, 195, .95);color:white;border:none;
+      }
+      .btn-bas:hover{
+          background-color:rgba(4, 159, 195, .60);
+          color:white; 
+      }
+
+
+      .btn-alg{
+        background-color:rgba(37, 61, 103, .95);color:white;border:none;
+      }
+      .btn-alg:hover{
+        background-color:rgba(37, 61, 103, .70);color:white;
+      }
+
+
+      .btn-trig{
+        background-color:rgba(170, 57, 57, .95);color:white;border:none;
+      }
+      .btn-trig:hover{
+        background-color:rgba(170, 57, 57, .60);color:white;
+      }
+
+
+      .btn-geo{
+        background-color:rgba(192, 185, 0, .85);color:white;border:none;
+      }
+      .btn-geo:hover{
+        background-color:rgba(192, 185, 0, .60);color:white;
+      }
+      
+
+      .btn-est{
+        background-color:rgba(0, 177, 64, .95);color:white;border:none;
+      }
+      .btn-est:hover{
+        background-color:rgba(0, 177, 64, .50);color:white;
+      }
+
+
+      .btn-dif{
+        background-color:rgba(143, 122, 165, 1);color:white;border:none;
+      }
+      .btn-dif:hover{
+        background-color:rgba(143, 122, 165, .67);color:white;
+      }
+
+      .btn-int{
+        background-color:rgba(57, 146, 131, .95);color:white;border:none;
+      }
+      .btn-int:hover{
+        background-color:rgba(57, 146, 131, .60);color:white;
+      }
+      .enc{
+        font-family: cursive;
+		display:block;
+		text-align:center;
+		width:100%;
+      }
+      .enclist{
+        margin-left:7px;
+        margin-bottom:15px; 
+        font-size: 1.6em;
+      }
+      .enctm{
+        font-size: 1.6;
+        color:black;
+        margin-top: 27px;
+      }
+      #m_s{
+        font-size: 1.15em;
+        font-family:cursive;
+
+      }
+      @media screen and (max-width:1100px){
+          .momet{
+            height: 490px;
+          }
+        }
+      @media screen and (max-width:900px){
+          .momet{
+            height: 580px;
+          }
+        } 
+      @media screen and (max-width:750px){
+          .momet{
+            padding-top:20px;
+            height: 470px;
+          }
+          .aches{
+            font-size: 1.8em;
+          }
+          .textmomet{
+            font-size: 1.15em;
+          }
+        }
+      @media screen and (max-width:685px){
+        .momet{
+          height:500px; 
+          padding: 10px;
+        }
+      }
+
+      @media screen and (max-width:500px){
+        .momet{
+          height: 575px;
+          padding: 6px;
+        }
+      }
+       @media screen and (max-width:420px){
+        .momet{
+          height: 710px;
+        }
+      }
+      @media screen and (max-width:320px){
+        .momet{
+          height: 875px;
+        }
+      }

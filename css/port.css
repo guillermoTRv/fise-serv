@@ -1,0 +1,310 @@
+body{
+				background-color:#ECF0F1; 
+				padding-top:80px;
+		}
+        .module {
+        
+        margin: 0 0 10px 0;
+        overflow: hidden;}
+        .module p {
+            margin: 0; 
+        }
+        .line-clamp {
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;  
+        }
+        .curs{
+            margin-top: 10px;
+            font-family:cursive;
+        }
+		.fk{
+		  	padding: 15px 12px 12px 12px;
+		}
+        .fkv{
+            padding-left:7px;
+
+        }
+		.forde{
+            border:1px solid #ddd;
+        }
+         p.sisbus{
+            margin-top:10px;
+            margin-bottom:15px;
+        }
+		.recp{
+            font-family:cursive;
+            font-size:1.1em;
+            font-weight:bolder;
+        }
+		 .columleft{
+		    padding-left:89px; 
+		} 
+		 .columrigth{
+		    padding-right:89px;
+		}
+
+		.foot{
+            position:relative;
+		 	height: 80px;
+            bottom: -10px;
+            width: 100%;
+            margin-top: 105px;
+		 	background-color: #ddd;
+		 
+		}
+        a.jun{
+            word-wrap: break-word;
+            text-decoration:none;
+        }
+        a.jun:hover{
+            text-decoration:none;
+        }
+
+		
+		a.aind{
+            text-decoration: none;
+			color:black;
+		}
+        a.aind:hover{
+            color:#A4A4A4;
+        }
+		.pan{
+		 	border-color: #ddd;
+                        margin-bottom:23px;
+
+		}
+		p.ptit{
+			font-family: Helvetica,sans-serif; 
+			font-size:18px;
+		}
+		p.desc{
+			font-family: Helvetica,sans-serif; 
+			font-size:14px;
+		}
+        a.atam{
+            font-size: 110%;
+        }
+        .textoleccion{
+            
+            font-family: 'Lato', sans-serif;
+            font-size: 1.16em;
+            line-height: 34px;
+        }
+        .coment{
+            background-color:#f2f2f2;
+            margin-left:10px; 
+            margin-right:20px;
+            padding: 10px 10px 10px 5px;
+        }
+        img.imgcoment{
+            width:59px;
+            height:59px;
+            border-radius:4px;
+            border:1px solid #ddd;
+            margin-left: 7px;
+
+        }
+        p.pcoment{
+            font-size: 1.1em;
+            font-family:cursive;
+        }
+
+        textarea.textcoment{
+            width:100%;
+            height:60px;
+            padding:5px;
+            border:2px solid #ddd;
+            outline: none;
+            resize: none;
+            border-radius:5px;
+            font-family:cursive;
+            font-weight: bolder;
+
+        }
+        .inputlink{
+            border:2px solid #ddd;
+            outline: none;
+            resize: none;
+            border-radius:5px;
+            font-family:cursive;
+            font-weight: bolder;
+        }
+        .curselect{
+            font-size:1.05em;
+        }
+        .curse{
+            font-size: .9em;
+        }
+        .inputfr{
+            font-family:cursive;
+            font-weight: bolder;   
+        }
+        a.alink{
+            font-size:1.14em;
+        } 
+        .btn-ind{
+            background-color:#D0DBD4;
+            color:#343F4A;
+        }
+        .btn-bas{
+            margin-top:20px;
+            background-color:rgba(4, 159, 195, .95);
+            font-size:13.5px;
+            color:white;
+        }
+        .fen{
+            font-family:cursive;
+            margin-bottom:120px;
+        }
+        .fenalg{
+            font-family:cursive;
+            margin-bottom:120px;
+        }
+        .fengeo{
+            font-family:cursive;
+            margin-bottom:120px;
+        }
+        .fenest{
+            font-family:cursive;
+            margin-bottom:120px;
+        }
+
+		/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+		.hrtrig{
+            border-color:rgba(170, 57, 57, .3);
+        }
+        /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+        .amountrig{
+            color:#AA3939;
+        }
+        a.amountrig:hover{
+        	color:#AA3939;
+            text-decoration:none;	
+        }
+        a.amounbas{
+            text-decoration:none;
+            color:rgba(4, 159, 195, .95);
+        }
+        a.amounbas:hover{
+            text-decoration:none;
+        	color:rgba(4, 159, 195, .95);	
+        }
+        .amounalg{
+            color:rgba(37, 61, 103, 1);
+        }
+        a.amounalg:hover{
+            text-decoration:none;
+        	color:rgba(37, 61, 103, 1);	 
+        }
+        .amoungeo{
+            color:rgba(192, 185, 0, .83);
+        }
+        a.amoungeo:hover{
+        	color:rgba(192, 185, 0, .83);
+            text-decoration:none;	
+        }
+        .amounest{
+            color:rgba(0, 177, 64, .93);
+        }
+        a.amounest:hover{
+            color:rgba(0, 177, 64, .93);
+            text-decoration: none;   
+        }
+        .amoundif{
+            color:rgba(143, 122, 165, .95);
+        }
+        a.amoundif:hover{
+            color:rgba(143, 122, 165, .95);
+            text-decoration: none;   
+        }
+         .amounint{
+            color:rgba(57, 146, 131, .95);
+        }
+        a.amounint:hover{
+            color:rgba(57, 146, 131, .95);
+            text-decoration: none;   
+        }
+        /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+        .infotrig{
+            color:#AA3939;font-size:90%;font-weight:bolder;
+        }
+        a.infotrig:hover{
+        	color:#AA3939;
+            text-decoration: none;
+        }
+        .infobas{
+            color:rgba(4, 159, 195, .95);font-size:90%;font-weight:bolder;
+        }
+        a.infobas:hover{
+        	color:rgba(4, 159, 195, .95);
+            text-decoration: none;
+        }
+        .infoalg{
+            color:rgba(37, 61, 103, .95);font-size:90%;font-weight:bolder;text-decoration: none;
+        }
+        a.infoalg:hover{
+        	color:rgba(37, 61, 103, .95);
+            text-decoration: none;
+        }
+        .infogeo{
+            color:rgba(192, 185, 0, 1);font-size:90%;font-weight:bolder;
+        }
+        a.infogeo:hover{
+        	color:rgba(192, 185, 0, 1);
+            text-decoration: none;
+        }
+        .infoest{
+            color:rgba(0, 177, 64, .93);font-size:90%;font-weight:bolder;
+        }
+        a.infoest:hover{
+            color:rgba(0, 177, 64, .93);
+            text-decoration:none;
+        }
+        .infodif{
+            color:rgba(143, 122, 165, 1);font-size:90%;font-weight:bolder;
+        }
+        a.infodif:hover{
+            color:rgba(143, 122, 165, 1);
+            text-decoration: none;
+        }
+        .infoint{
+            color:rgba(57, 146, 131, .95);font-size:90%;font-weight:bolder;
+        }
+        a.infoint:hover{
+            color:rgba(57, 146, 131, .95);
+            text-decoration:none;
+        }
+
+        /*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+        a.ping{
+        	color:black;
+        	text-decoration: none
+        }	
+        /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+		@media screen and (max-width:1300px){
+            .columrigth{
+                padding-right:17px;
+            }
+            .columleft{
+                padding-left:17px;
+            }
+        } 
+        @media screen and (max-width:900px){
+            .columrigth{
+                padding-right:-17px;
+            }
+            .columleft{
+                padding-left:-17px;
+            }
+            .compfin{
+                margin-bottom: 20px;
+            }
+        }
+        @media screen and (max-width:400px){
+            .foot{
+                height:90px;
+            }
+        }
